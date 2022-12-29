@@ -1493,27 +1493,19 @@ a:hover { color: tomato; }
 
 
 footer{
-    width: 100%;/*на всю ширину*/
-    padding: 20px 50px;/*поля для контента*/
-    background: red;/*цвет футера*/
-    display: flex;
-    justify-content: center;/*в центре по горизонтали*/
-    align-items: center;/*в центре по вертикали*/
-    flex-direction: column;
-    margin-top: 700px;/*отступ сверху*/
-    position: fixed;
-}
-.fit{
-  width: 100%;/*на всю ширину*/
-  padding: 20px 50px;/*поля для контента*/
-  background: red;/*цвет футера*/
+  box-shadow:0 0px 32px -12px #737373;
+  background: #2d343d;
+  color: #fff;
+  padding:5px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
   display: flex;
-  justify-content: center;/*в центре по горизонтали*/
-  align-items: center;/*в центре по вертикали*/
+  justify-content: center;
   flex-direction: column;
-  margin-top: 300px;/*отступ сверху*/
-  position: fixed;
+  align-items: center;
 }
+
 
 .menu{
     position: relative;
