@@ -119,7 +119,7 @@ input[type=checkbox],label{display:none}
         text-align: center;
     }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 600px) {
     label{
         padding:5px 0;
     }
@@ -144,6 +144,11 @@ input[type=checkbox],label{display:none}
         padding-top: 25px;
         font-size: 50%;
     }
+    .menuItem
+    {
+      font-size: xx-large;
+    }
+	
 }
 .futur{
     flex-grow: 1;
@@ -181,6 +186,7 @@ gallary:hover img:hover{
         padding-right: 50px;
         padding-left: 0;
     }
+    
 
 
 }
